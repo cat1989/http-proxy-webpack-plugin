@@ -1,0 +1,38 @@
+{
+  "name": "http-proxy-webpack-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cat1989/http-proxy-webpack-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "proxy",
+    "plugin"
+  ],
+  "author": "cat1989",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cat1989/http-proxy-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/cat1989/http-proxy-webpack-plugin#readme",
+  "files": [
+    "lib"
+  ],
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/webpack": "^5.28.5",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6"
+  }
+}
